@@ -1,0 +1,12 @@
+'''In workaround we can convert the tuple into a list,
+change the list, and convert the list back into a tuple 
+as tuples are immutable'''
+
+x = ("apple", "banana", "cherry")
+print("before workaround ")
+y = list(x)
+print(y)
+y[1] = "kiwi"
+x = tuple(y)
+print("after  workaround ")
+print(x)
