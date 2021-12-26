@@ -1,0 +1,16 @@
+setf = {"apple", "banana", "cherry"}
+print("banana" in setf)
+for x in setf:
+  print(x)
+  
+setf.add("orange")
+print(setf)  
+tropical = {"pineapple", "mango", "papaya"}
+setf.update(tropical)
+print(setf)
+setf.discard("mango")
+print(setf)
+setf.discard("pineapple")
+print(setf)
+setf.clear()
+print(setf)
