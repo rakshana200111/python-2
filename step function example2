@@ -1,0 +1,10 @@
+list1 = ["ram",2,4.5,'a']
+
+list2 = []
+
+for i in list1:
+
+    f = lambda i: i 
+
+    list2.append(f(i))
+print(list2)
